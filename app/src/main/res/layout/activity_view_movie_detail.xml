@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="THIS IS A PHOTO" android:src="@drawable/moviephoto" android:layout_gravity="center"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Title:"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/detailTitle" android:textSize="20dp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Overview: "/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/detailOverview" android:textSize="20dp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Language:: "/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/detailLang" android:textSize="20dp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Release Date: "/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/detailDate" android:textSize="20dp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Suitable for children below 13: "/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/detailNSFW" android:textSize="20dp"/>
+
+</LinearLayout>
