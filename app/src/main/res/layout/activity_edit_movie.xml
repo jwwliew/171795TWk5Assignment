@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".edit_movie">
 
     <TextView android:layout_width="match_parent"
               android:layout_height="wrap_content"
@@ -32,40 +32,40 @@
               android:layout_height="wrap_content"
               android:text="@string/movieLangText"/>
 
-        <RadioGroup android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/langRadioGroup"
-                    android:orientation="horizontal"
-                    android:checkedButton="@id/rbtn1">
+    <RadioGroup android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/langRadioGroup"
+                android:orientation="horizontal"
+                android:checkedButton="@id/rbtn1">
 
-            <RadioButton android:layout_width="wrap_content"
-                         android:layout_height="wrap_content"
-                         android:layout_below="@id/movieLangText"
-                         android:layout_alignLeft="@id/movieLangText"
-                         android:id="@+id/rbtn1"
-                         android:text="@string/rbtn1Text"/>
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/movieLangText"
+                     android:layout_alignLeft="@id/movieLangText"
+                     android:id="@+id/rbtn1"
+                     android:text="@string/rbtn1Text"/>
 
-            <RadioButton android:layout_width="wrap_content"
-                         android:layout_height="wrap_content"
-                         android:layout_alignTop="@id/rbtn1"
-                         android:layout_toRightOf="@id/rbtn1"
-                         android:id="@+id/rbtn2"
-                         android:text="@string/rbtn2Text"/>
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignTop="@id/rbtn1"
+                     android:layout_toRightOf="@id/rbtn1"
+                     android:id="@+id/rbtn2"
+                     android:text="@string/rbtn2Text"/>
 
-            <RadioButton android:layout_width="wrap_content"
-                         android:layout_height="wrap_content"
-                         android:layout_alignTop="@id/rbtn2"
-                         android:layout_toRightOf="@id/rbtn2"
-                         android:id="@+id/rbtn3"
-                         android:text="@string/rbtn3Text"/>
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignTop="@id/rbtn2"
+                     android:layout_toRightOf="@id/rbtn2"
+                     android:id="@+id/rbtn3"
+                     android:text="@string/rbtn3Text"/>
 
-            <RadioButton android:layout_width="wrap_content"
-                         android:layout_height="wrap_content"
-                         android:layout_alignTop="@id/rbtn3"
-                         android:layout_toRightOf="@id/rbtn3"
-                         android:id="@+id/rbtn4"
-                         android:text="@string/rbtn4Text"/>
-        </RadioGroup>
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignTop="@id/rbtn3"
+                     android:layout_toRightOf="@id/rbtn3"
+                     android:id="@+id/rbtn4"
+                     android:text="@string/rbtn4Text"/>
+    </RadioGroup>
 
     <TextView android:layout_width="match_parent"
               android:layout_height="wrap_content"
@@ -102,10 +102,5 @@
                   android:visibility="gone"/>
 
     </LinearLayout>
-    
-    <!--<Button android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="@string/btnAddMovie"-->
-            <!--android:onClick="btnValidate"/>-->
 
 </LinearLayout>
